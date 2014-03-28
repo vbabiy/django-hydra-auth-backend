@@ -24,7 +24,7 @@ clean-pyc:
 	find . -name '*~' -exec rm -f {} +
 
 lint:
-	flake8 djang-hydra-auth-backend tests
+	flake8 django-hydra-auth-backend tests
 
 test:
 	python runtests.py test
@@ -33,15 +33,15 @@ test-all:
 	tox
 
 coverage:
-	coverage run --source djang-hydra-auth-backend setup.py test
+	coverage run --source django-hydra-auth-backend setup.py test
 	coverage report -m
 	coverage html
 	open htmlcov/index.html
 
 docs:
-	rm -f docs/djang-hydra-auth-backend.rst
+	rm -f docs/django-hydra-auth-backend.rst
 	rm -f docs/modules.rst
-	sphinx-apidoc -o docs/ djang-hydra-auth-backend
+	sphinx-apidoc -o docs/ django-hydra-auth-backend
 	$(MAKE) -C docs clean
 	$(MAKE) -C docs html
 	open docs/_build/html/index.html

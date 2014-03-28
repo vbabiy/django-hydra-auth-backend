@@ -5,7 +5,7 @@
 test_djang-hydra-auth-backend
 ------------
 
-Tests for `djang-hydra-auth-backend` models module.
+Tests for `django-hydra-auth-backend` models module.
 """
 
 import os

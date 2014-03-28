@@ -30,7 +30,7 @@ setup(
     long_description=readme + '\n\n' + history,
     author='Vitaly Babiy',
     author_email='vbabiy86@gmail.com',
-    url='https://github.com/vbabiy/djang-hydra-auth-backend',
+    url='https://github.com/vbabiy/django-hydra-auth-backend',
     packages=[
         'hydra_auth_backend',
     ],
@@ -39,7 +39,7 @@ setup(
     ],
     license="BSD",
     zip_safe=False,
-    keywords='djang-hydra-auth-backend',
+    keywords='django-hydra-auth-backend',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Framework :: Django',

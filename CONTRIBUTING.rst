@@ -13,7 +13,7 @@ Types of Contributions
 Report Bugs
 ~~~~~~~~~~~
 
-Report bugs at https://github.com/vbabiy/djang-hydra-auth-backend/issues.
+Report bugs at https://github.com/vbabiy/django-hydra-auth-backend/issues.
 
 If you are reporting a bug, please include:
 
@@ -43,7 +43,7 @@ articles, and such.
 Submit Feedback
 ~~~~~~~~~~~~~~~
 
-The best way to send feedback is to file an issue at https://github.com/vbabiy/djang-hydra-auth-backend/issues.
+The best way to send feedback is to file an issue at https://github.com/vbabiy/django-hydra-auth-backend/issues.
 
 If you are proposing a feature:
 
@@ -55,17 +55,17 @@ If you are proposing a feature:
 Get Started!
 ------------
 
-Ready to contribute? Here's how to set up `djang-hydra-auth-backend` for local development.
+Ready to contribute? Here's how to set up `django-hydra-auth-backend` for local development.
 
-1. Fork the `djang-hydra-auth-backend` repo on GitHub.
+1. Fork the `django-hydra-auth-backend` repo on GitHub.
 2. Clone your fork locally::
 
-    $ git clone git@github.com:your_name_here/djang-hydra-auth-backend.git
+    $ git clone git@github.com:your_name_here/django-hydra-auth-backend.git
 
 3. Install your local copy into a virtualenv. Assuming you have virtualenvwrapper installed, this is how you set up your fork for local development::
 
-    $ mkvirtualenv djang-hydra-auth-backend
-    $ cd djang-hydra-auth-backend/
+    $ mkvirtualenv django-hydra-auth-backend
+    $ cd django-hydra-auth-backend/
     $ python setup.py develop
 
 4. Create a branch for local development::
@@ -101,7 +101,7 @@ Before you submit a pull request, check that it meets these guidelines:
    your new functionality into a function with a docstring, and add the
    feature to the list in README.rst.
 3. The pull request should work for Python 2.6, 2.7, and 3.3, and for PyPy. Check 
-   https://travis-ci.org/vbabiy/djang-hydra-auth-backend/pull_requests
+   https://travis-ci.org/vbabiy/django-hydra-auth-backend/pull_requests
    and make sure that the tests pass for all supported Python versions.
 
 Tips

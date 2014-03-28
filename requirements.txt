@@ -1,0 +1,4 @@
+django>=1.5.1
+wheel==0.22.0
+requests==2.2.1
+# Additional requirements go here
